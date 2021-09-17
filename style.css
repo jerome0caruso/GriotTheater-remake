@@ -208,6 +208,9 @@ h5 {
     .footer-container {
         width: 100%;
     }
+    .footer img {
+        display: block;
+    }
     
 }
 
@@ -231,9 +234,7 @@ h5 {
         font-size: 8em;
         font-weight: 500;
     }
-    .footer-container {
-        width: 70%;
-    }
+
     .footer-shows-container {
         margin: 0;
     }
@@ -244,6 +245,7 @@ h5 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        width: 70%;
     }
 
     .footer-links {
@@ -273,7 +275,7 @@ h5 {
 }
 
 @media only screen and (max-width: 1050px) {
-    .main, .footer {
+    .main, .footer, .nav {
         width: 100vw;
     }
     .footer {
